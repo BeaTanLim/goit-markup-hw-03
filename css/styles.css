@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap");
+
+
+:root {
+  --iriscolor: #4d5ae5;
+  --navyblue: #2E2F42;
+  --navcolor: #2e2f42;
+  --oceancolor: #404BBF;
+  --contactcolor: #434455;
+  --titlecolor:  #2E2F42;
+  --descriptioncolor: #434455;
+  --namecolor: #2e2f42;
+  --positioncolor: #434455;
+  --cloud: #f4f4fd;
+  --slate: #434455;
+}
+
+/*"body" is considered a global selector because it targets the <body> element, which is the top-level container for the content of an HTML document. The styles defined within the "body" selector will apply to the entire document unless they are overridden by more specific selectors.*/
+
+body{
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: var(--slate);
+}
+
+img{
+  vertical-align: bottom;
+}
+
+
+/*why does my justify-content:center not work if I have this .container{width:1185px}? Basically it makes my website looks more wonky huhuhu! */
+
+/* .container{
+  max-width: 1158px;
+} */
+
+/*can we just delete the CSS code from lines 33 to 35? haha*/
+
+
+.list{
+  list-style: none;
+}
+ 
+/*WEBSTUDIO LOGO*/
+
+.logo-link{
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Raleway",sans-serif;
+  line-height: 1.17;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.logo{
+  color: var(--iriscolor);
+}
+
+.studio{
+  color: var(--navyblue)
+}
+
+/*MENU ITEMS*/
+.nav-menu .page {
+  font-weight: 500;
+  color: var(--navcolor);
+  text-decoration: none;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.main-header,
+.navigation,
+.nav-menu,
+.contacts-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.nav-menu .page:hover,
+.nav-menu .page:focus,
+.nav-menu .page.current,
+.contacts-menu .contact:hover,
+.contacts-menu .contact:focus{
+  color: var(--oceancolor);
+}
+
+.contacts-menu .contact{
+  color: var(--slate);
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/*MAIN LANDING PAGE*/
+
+
+.bg-hero{
+  background-color: var(--navyblue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.hero .hero-title{
+  color: var(--white, #FFF);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.main-button{
+  margin-top: -10px;
+  text-align: center;
+}
+/*MAIN LANDING PAGE BUTTON*/
+
+.button{
+  cursor:pointer;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  border-color: transparent;
+}
+
+.button.primary{
+  color: white;
+  background-color: var(--iriscolor);
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+.button.primary:hover,
+.button-primary:focus {
+  background-color: var(--oceancolor);
+}
+
+/*BUTTON POSITION*/
+.button{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*SECTION 2*/
+.list{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.benefits li{
+  white-space: nowrap;
+}
+
+.section{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.section-title{
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 500;
+  color: var(--navyblue);
+  line-height: 1.17;
+}
+
+
+/*SECTION 3*/
+
+
+/*SECTION 4*/
+.bg-team{
+  background-color: var(--cloud);
+}
+
+.team .name{
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.team .position{
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/*FOOTER*/
+
+
+footer{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+}
+
+.page-footer.bg-footer{
+  background-color: var(--navyblue);
+}
+
+.page-footer .studio-footer{
+  color: var(--cloud);
+}
+
+.footer-description{
+  color: var(--cloud);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.benefits .title{
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--navyblue)
+}
+
+.benefits .description{
+  color: var(--slate);
+  line-height: 1.71;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* PORFOLIO */
+
+/**/
+.button.filter{
+  background-color: var(--cloud);
+  color: var(--iriscolor);
+  font-weight: 500;
+  line-height: 1.62;
+  margin: 5px;
+}
+
+.button.filter:hover,
+.button.filter:focus,
+.button.filter.current{
+  background-color: var(--oceancolor);
+  color: var(--cloud);
+}
+
+/*PORTFOLIO BUTTONS*/
+.filters .button:hover,
+.filters .button:focus{
+  background-color: var(--oceancolor);
+  color: var(--white, #FFF);
+}
+
+
+.label{
+  border: 1px solid var(--cornflower, #E7E9FC);
+  border-top: 1px solid transparent;
+  padding-left: 16px;
+}
+
+.name,
+.type{
+  margin: 0px;
+}
+
+/*I am not sure what to do with the 32px padding. It says "32" in Figma, but when I write "32px" in the padding, the space above the names are really big*/
+.name{
+  padding-top: 20px;
+}
+
+.type{
+  padding-bottom: 20px;
+}
+.projects{
+  margin-left: 24px;
+  margin-right:24px;
+}
+
+.projects .project{
+  text-decoration: none;
+}
+
+.project .name{
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+
+.projects .type{
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
