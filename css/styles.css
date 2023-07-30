@@ -24,6 +24,10 @@ body{
   color: var(--slate);
 }
 
+.list{
+  list-style: none;
+}
+
 img{
   vertical-align: bottom;
 }
@@ -38,9 +42,7 @@ img{
 /*can we just delete the CSS code from lines 33 to 35? haha*/
 
 
-.list{
-  list-style: none;
-}
+
  
 /*WEBSTUDIO LOGO*/
 
@@ -88,7 +90,7 @@ img{
   color: var(--oceancolor);
 }
 
-.contacts-menu .contact{
+.contacts-menu .item{
   color: var(--slate);
   text-decoration: none;
   font-weight: 400;
