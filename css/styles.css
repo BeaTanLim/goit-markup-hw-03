@@ -119,6 +119,7 @@ img{
   text-align: center;
 }
 
+
 /* .main-button{
   margin-top: -10px;
   text-align: center;
@@ -151,9 +152,8 @@ img{
 
 /*BUTTON POSITION*/
 .button{
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  margin: 0 auto;
 }
 
 /*SECTION 2*/
