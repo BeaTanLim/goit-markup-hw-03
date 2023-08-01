@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"); */
 
 
 :root {
@@ -72,7 +72,7 @@ img{
   letter-spacing: 0.02em;
 }
 
-.main-header,
+.menu,
 .navigation,
 .nav-menu,
 .contacts-menu{
@@ -119,10 +119,11 @@ img{
   text-align: center;
 }
 
-.main-button{
+/* .main-button{
   margin-top: -10px;
   text-align: center;
-}
+} main-button class has been deleted on the first revision*/
+
 /*MAIN LANDING PAGE BUTTON*/
 
 .button{
@@ -266,7 +267,7 @@ footer{
 }
 
 
-.label{
+.substrate{
   border: 1px solid var(--cornflower, #E7E9FC);
   border-top: 1px solid transparent;
   padding-left: 16px;
