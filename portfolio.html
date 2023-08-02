@@ -4,7 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/styles.css"/>
+
+    <!-- Revision 1 2023-08-01 comment: Use a link tag in the HTML file for the fonts instead of in the CSS so the loading time of the fonts will be faster-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Normalizer first -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Header part-->
@@ -74,7 +90,7 @@
                 </div>
               </a>
             </li>
-            <li>
+            <li class="project-card">
               <a href="" class="project link">
                 <img src="./images/portfolio-img-2-cashless-payment.jpg" alt="Cashless Payment" width="370" height="294" class="image">
                 <div class="substrate">
@@ -83,7 +99,7 @@
                 </div>   
               </a>
             </li>
-            <li>
+            <li class="project-card">
               <a href="" class="project link">
                 <img src="./images/portfolio-img-3-meditation-app.jpg" alt="Meditation App" width="370" height="294" class="image">
                 <div class="substrate">
@@ -93,7 +109,7 @@
               </a>
             </li>
 
-            <li>
+            <li class="project-card">
               <a href="" class="project link">
                 <img src="./images/portfolio-img-4-taxi-service.jpg" alt="Taxi Service" width="370" height="294" class="image">
                 <div class="substrate">
@@ -102,7 +118,7 @@
                 </div>
               </a>
             </li>
-            <li>
+            <li class="project-card">
               <a href="" class="project link">
                 <img src="./images/portfolio-img-5-screen-illustrations.jpg" alt="Screen Illustrations" width="370" height="294" class="image">
                 <div class="substrate">
@@ -111,7 +127,7 @@
                 </div>
               </a>
             </li>
-            <li>
+            <li class="project-card">
               <a href="" class="project link">
                 <img src="./images/portfolio-img-6-online-courses.jpg" alt="Online Courses" width="370" height="294" class="image">
                 <div class="substrate">
@@ -120,8 +136,7 @@
                 </div>
               </a>
             </li>
-
-            <li>
+            <li class="project-card">
               <a href="" class="project link">
                 <img src="./images/portfolio-img-7-instagram-stories-concept.jpg" alt="Instagram Stories Concept" width="370" height="294" class="image">
                 <div class="substrate">
@@ -130,7 +145,7 @@
                 </div>
               </a>
             </li>
-            <li>
+            <li class="project-card">
               <a href="" class="project link">
                 <img src="./images/portfolio-img-8-organic-food.jpg" alt="Organic Food" width="370" height="294" class="image">
                 <div class="substrate">
@@ -139,7 +154,7 @@
                 </div>
               </a>
             </li>
-            <li>
+            <li class="project-card">
               <a href="" class="project link">
                 <img src="./images/portfolio-img-9-fresh-coffee.jpg" alt="Fresh Coffee" width="370" height="294" class="image">
                 <div class="substrate">
